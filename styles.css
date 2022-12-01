@@ -1,0 +1,919 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+.page-ctn {
+    background-image: url(./assets/mockups/Desktop\ [1024+].jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 30px;
+    margin-bottom: 0.875;
+    justify-content: space-between;
+}
+
+.header,
+.header-logo,
+.header-nav,
+.header-nav nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 153px;
+}
+
+[aria-controls="navbarDropdown"] {
+    display: none;
+}
+
+.header-nav button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.header-nav button > span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #667787;
+    margin-right: 0.3rem;
+}
+
+.header-nav nav {
+    justify-content: space-between;
+    width: 28.5rem;
+}
+
+.header-nav nav > a {
+    font-size: 1rem;
+    letter-spacing: -0.02rem;
+    text-decoration: none;
+    color: #667787;
+}
+
+.header-nav nav > a:hover {
+    color: #2475fe;
+}
+
+.buy-now {
+    width: 6.35rem;
+    letter-spacing: 0.0187rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 0.8rem 1.65rem;
+    margin: 0 0.85rem 0 0.5rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background-color: #2476fe;
+}
+
+.s1-ctn {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 220px;
+}
+
+.s1-left {
+    width: 100%;
+    margin-left: 1.8rem;
+    display: flex;
+}
+
+.s1-left-ctn {
+    margin-top: 77px;
+}
+
+.s1-left h1 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    width: 22rem;
+    line-height: 3.04rem;
+    margin: 0;
+    letter-spacing: 0.02rem;
+}
+
+.s1-left p {
+    margin-top: 4px;
+    margin-bottom: 25px;
+    font-size: 0.93rem;
+    letter-spacing: 0.01rem;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+}
+
+.lm-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 2rem;
+    width: 6.7rem;
+    padding: 0.9rem;
+    letter-spacing: 0.015rem;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #2476fe;
+    text-decoration: none;
+}
+
+.lm-btn svg {
+    width: 19px;
+    margin-left: 13px;
+    margin-right: 7px;
+    fill: white;
+}
+
+.lmlm {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 25px;
+    color: #2476fe;
+}
+
+.s1-right-ctn {
+    width: 100%;
+}
+
+.s1-right {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+.bubble-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 77px;
+    height: 77px;
+    border: 1px solid transparent;
+    border-radius: 6rem;
+    box-shadow: 2px 3px 8px 3px gainsboro;
+    background-color: white;
+    position: relative;
+}
+
+.bubble-logos img {
+    background-color: transparent;
+    border: 1px solid transparent;
+    width: 3rem;
+}
+
+.bl1 {
+    top: 36px;
+    left: 371px;
+}
+.bl2 {
+    top: 35px;
+    left: -83px;
+}
+.bl3 {
+    top: 256px;
+    left: 356px;
+}
+.bl4 {
+    top: 234px;
+    left: -105px;
+    width: 60px;
+    height: 60px;
+}
+.bl5 {
+    top: -125px;
+    left: 54px;
+    width: 60px;
+    height: 60px;
+}
+.bubble-logos.bl5 img {
+    width: 2.4rem;
+}
+.bl6 {
+    top: 38px;
+    left: -213px;
+}
+.bl7 {
+    top: -41px;
+    left: 254px;
+}
+
+.s2-text {
+    text-align: center;
+    margin-top: 4.1rem;
+}
+
+.s2-text h2 {
+    margin: 0;
+    font-size: 1.76rem;
+    letter-spacing: 0.01rem;
+}
+
+.s2-text p {
+    margin: 0.1rem;
+    letter-spacing: 0.045rem;
+    color: #667787;
+}
+
+.s2-card-ctn {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 67px 14px 61px;
+}
+
+.s2-card-ctn > div {
+    display: flex;
+    margin-bottom: 29px;
+}
+
+.s2-card-ctn div > div {
+    padding: 20px 0px 12px 20px;
+    margin: 0 1rem;
+    box-shadow: 0px 5px 20px 2px gainsboro;
+}
+
+.s2-card-ctn img {
+    width: 50px;
+}
+
+.s2-card-ctn h3 {
+    margin-top: 9px;
+    letter-spacing: -0.02rem;
+}
+
+.sketch {
+    background-color: #01c8a7;
+    padding: 2px 11px 0px;
+    margin-left: 2px;
+    color: white;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+}
+
+.s2-card-ctn p {
+    line-height: 1.49rem;
+}
+
+.s2-card-ctn a {
+    text-decoration: none;
+    color: #2476fe;
+}
+
+.s3-ctn {
+    display: flex;
+    margin: 0 30px;
+    background-color: #f9fafe;
+}
+
+.s3-left {
+    padding: 1.65rem 1rem 1rem 1.9rem;
+}
+
+.s3-left,
+.s3-right {
+    margin-top: 117px;
+}
+
+.s3-left h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.016rem;
+    margin-bottom: 1.5rem;
+}
+
+.s3-left a {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 2rem;
+    width: 6.8rem;
+    padding: 0.9rem;
+    letter-spacing: 0.015rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: #2476fe;
+}
+
+.s3-left a > svg {
+    width: 19px;
+    margin-left: 13px;
+    margin-right: 7px;
+    fill: white;
+}
+
+.s3r-img {
+    width: 31.5rem;
+    height: 22rem;
+    background-image: url(./assets/banners/banner_one.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.s4-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.s4-text > div {
+    text-align: center;
+    width: 596px;
+}
+
+.s4-text div > h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+
+.s4-text div > p {
+    margin: 0;
+    letter-spacing: 0.045rem;
+    color: #667787;
+}
+
+.s4-options {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 64px 9px 106px 0;
+}
+
+.s4hr {
+    position: absolute;
+    width: 42rem;
+    z-index: -1;
+    top: 1908px;
+}
+
+.s4-options > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 11rem;
+    font-weight: 600;
+}
+
+.s4gc {
+    width: 50px;
+    height: 50px;
+    border-radius: 2rem;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.s4bd {
+    width: 6.7px;
+    height: 6.7px;
+    border-radius: 2rem;
+    background-color: #2476fe;
+}
+
+.s5-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 27px;
+    background-image: url(./assets/banners/banner_two.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 26rem;
+}
+
+.s5-ctn a {
+    width: 65px;
+    height: 65px;
+}
+
+.s5-play-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 3px 1px gainsboro;
+}
+
+.s5-play-btn img {
+    width: 20px;
+}
+
+.dots {
+    width: 200px;
+    position: relative;
+    top: 11.8rem;
+    left: 1.77rem;
+}
+
+.s6-ctn {
+    display: flex;
+    margin: -300px 20px 0 80px;
+}
+
+.s6-left {
+    z-index: 1;
+}
+
+.s6-left img {
+    width: 373px;
+    margin-top: 6px;
+}
+
+.s6-right {
+    margin: 90px 0 0 59px
+}
+
+.s6-right img {
+    width: 100px;
+}
+
+.s6-right > p {
+    font-size: 24px;
+    margin: 22px 0 46px;
+    line-height: 2rem;
+    letter-spacing: 0.03rem;
+    font-weight: 500;
+}
+
+.name-tag h4 {
+    font-size: 1.23rem;
+    margin-bottom: -6px;
+}
+
+.name-tag p {
+    margin: 0;
+    color: #667787;
+}
+
+.s7-ctn {
+    text-align: center;
+    margin-top: 7.6rem;
+}
+
+.s7-text {
+    font-size: 1.4rem;
+}
+
+.s7-logos {
+    display: flex;
+    justify-content: space-between;
+    margin: 39px 30px 0
+}
+
+.s7-logos img {
+    width: 113px;
+}
+
+.s8-ctn {
+    margin-top: 5.36rem;
+}
+
+.s8-text {
+    text-align: center;
+}
+
+.s8-text h4 {
+    font-size: 1.81rem;
+    margin: 0;
+}
+
+.s8-text p {
+    font-size: 1.12rem;
+    color: #667787;
+    margin: -0.25rem
+}
+
+.s8-plan {
+    display: flex;
+    margin: 64px 44px;
+    height: 28rem;
+}
+
+.s8-plan-left {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    box-shadow: 0 5px 15px -10px;
+    width: 26.5rem;
+}
+
+.s8-plan-left > span {
+    margin-top: 50px;
+}
+
+.s8-59 {
+    font-size: 56px;
+}
+
+.s8-slash {
+    font-size: 28px;
+    margin: 0 4px;
+    color: #667787;
+}
+
+.s8-mo {
+    color: #667787;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.s8-plan-left p {
+    margin-top: 28px;
+    font-size: 18px;
+    letter-spacing: 0.004rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+    color: #667787;
+}
+
+.s8-plan-left a {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 2rem;
+    width: 6.8rem;
+    padding: 0.9rem;
+    letter-spacing: 0.015rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: #2476fe;
+}
+
+.s8-plan-left a svg {
+    width: 19px;
+    margin-left: 13px;
+    margin-right: 7px;
+    fill: white;
+}
+
+.s8-plan-left > div {
+    color: #667787;
+    font-size: 0.845rem;
+    margin-top: 0.5rem;
+}
+
+.s8-plan-features {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50rem;
+    margin-left: 1rem;
+}
+
+.s8-plan-features div {
+    width: 15rem;
+    margin: 0.6rem 0 1rem 2rem;
+}
+
+.s8-plan-features div > img {
+    width: 55px;
+}
+
+.s8-plan-features div > h4 {
+    font-size: 1.23rem;
+    margin: 0.5rem 0;
+}
+
+.s8-plan-features div > p {
+    line-height: 1.4rem;
+    letter-spacing: -0.01rem;
+    color: #667787;
+}
+
+.s9-ctn {
+    display: flex;
+    margin-top: 7.35rem;
+    background-color: #20335b;
+}
+
+.s9-hire {
+    margin: 8rem 1rem 1rem 4.38rem;
+    width: 25.25rem;
+}
+
+.hire {
+    width: 10rem;
+}
+
+.hire h5 {
+    font-size: 1.85rem;
+    margin: 0.8rem 0 0;
+    color: white;
+}
+
+.hire p {
+    margin: 0;
+    color: #667787;
+}
+
+.s9-hire hr {
+    width: 11.1rem;
+    margin: 1.8rem auto 2rem 0;
+}
+
+.quote {
+    color: #667787;
+    width: 22rem;
+    margin-bottom: 3.5rem;
+}
+
+.head-slack h5 {
+    color: #667787;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.head-slack p {
+    margin-top: -0.35rem;
+    color: #667787;
+}
+
+.profile-bubbles img {
+    width: 3rem;
+    border-radius: 2rem;
+    margin: 2rem 1rem 0 0;
+}
+
+.s9-form {
+    background-color: white;
+    margin: 1.8rem auto 2rem 3.4rem;
+    padding: 2rem;
+    width: 24.4rem;
+    border-radius: 0.5rem;
+}
+
+.s9-form h5 {
+    font-size: 1.105rem;
+    margin: 0.1rem 0 1.2rem 0;
+    line-height: 1.4rem;
+}
+
+.s9-name,
+.s9-select {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+}
+
+.s9-name > label,
+.s9-select > label { position: absolute; }
+
+.s9-name > input {
+    height: 2.35rem;
+    width: 10.6rem;
+    padding-left: 0.5rem;
+    letter-spacing: 0.05rem;
+}
+
+.s9-select select {
+    height: 2.65rem;
+    width: 11.5rem;
+    padding: 0 5px;
+}
+
+.s9-textarea textarea {
+    width: 23rem;
+    height: 8rem;
+    padding: 0.6rem;
+    font-size: 14px;
+    line-height: 1.3rem;
+}
+
+.checkbox {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.checkbox > div > input {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.4rem 0 0 0;
+}
+
+.checkbox > p {
+    margin: 0 0 0 1rem;
+}
+
+.policy {
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.policy > a {
+    text-decoration: dotted;
+    font-weight: 800;
+    color: #667787;
+}
+
+.policy > a:hover {
+    color: #2475fe;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.form-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    width: 7.3rem;
+    padding: 0.9rem;
+    letter-spacing: 0.015rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: #2476fe;
+}
+
+.f-top {
+    display: flex;
+    margin: 4.8rem 2rem 1.5rem 1.9rem;
+}
+
+.f-top a {
+    text-decoration: none;
+    color: #667787;
+}
+
+.f-top a:hover {
+    color: #2475fe;
+}
+
+.ft-front {
+    margin-right: 1.88rem;
+}
+
+.ft-front > img {
+    width: 6.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.ft-front div > a > svg {
+    width: 0.75rem;
+    fill: #555;
+}
+
+.blue b {
+    color: #2476fe;
+}
+
+.ft-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 38rem;
+    margin-top: -0.25rem;
+}
+
+.ft-nav div > nav {
+    font-size: 1.3rem;
+}
+
+.ft-nav div > nav > ul {
+    list-style: none;
+    margin: 0.6rem 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.65rem;
+}
+
+.ft-nav div > nav > ul > li > span {
+    font-size: 0.54rem;
+    background-color: #2475fe;
+    padding: 0.1rem 0.3rem 0;
+    margin-left: 0.4rem;
+    border-radius: 0.2rem;
+    color: white;
+}
+
+.ft-nav div > nav > ul > li > a > svg {
+    width: 0.8rem;
+    height: 0.8rem;
+    fill: #555;
+}
+
+.ft-hr {
+    width: 94%;
+}
+
+.f-bottom {
+    margin-top: 2.5rem;
+}
+
+.fb-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.15rem 1.8rem;
+}
+
+.fbt-left {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05rem;
+}
+
+.fbt-left {
+    justify-content: space-between;
+    width: 18rem;
+    color: #667787;
+}
+
+.fbt-left a {
+    text-decoration: none;
+    color: #667787;
+}
+
+.fbt-left a:hover {
+    color: #2475fe;
+}
+
+.fbt-right {
+    display: flex;
+}
+
+.fbt-right a {
+    margin-right: 1.2rem;
+}
+
+.fbt-right a > div {
+    width: 1.92rem;
+    height: 1.92rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf2ff;
+    border-radius: 0.5rem;
+}
+
+.fbt-right a > div:hover {
+    background-color: #667787;
+}
+
+.fbt-right a > div > svg {
+    width: 1rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    fill: #667787;
+}
+
+.fbt-right a > div > svg:hover {
+    fill: #ecf2ff;
+}
+
+.fbt-right label {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.fbt-right select {
+    width: 10.45rem;
+    border-radius: 0.3rem;
+    background-color: #ecf2ff;
+    border: none;
+}
+
+.fbt-right select:hover {
+    border: 1px solid gainsboro;
+}
+
+.fbt-right select > option {
+    text-align: center;
+}
+
+.fb-bottom {
+    text-align: center;
+    color: #667787;
+    font-weight: 500;
+}
+
+.fb-bottom div {
+    width: 44rem;
+    margin: 1rem auto 0;
+}

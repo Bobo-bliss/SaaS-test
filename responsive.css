@@ -1,0 +1,265 @@
+@media screen and (max-width: 1023px) {
+    .page-ctn {
+        background-image: url(./assets/mockups/Tablet\ [768\ -\ 1023].jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    
+    
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+
+
+
+
+    [aria-controls="navbarDropdown"] {
+        display: block;
+    }
+
+    [aria-expanded="false"] ~ nav {
+        display: none;
+    }
+
+    [aria-expanded="true"] ~ nav {
+        display: block;
+    }
+
+    .s1-ctn {
+        flex-wrap: wrap;
+        margin-bottom: 131px;
+    }
+
+    .s1-left-ctn {
+        margin-top: 28px;
+        width: 376px;
+    }
+
+    .s1-left,
+    .learn-more {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bl1 {
+        top: 64px;
+        left: 562px;
+    }
+
+    .bl2 {
+        top: 63px;
+        left: -67px;
+    }
+
+    .bl3 {
+        top: 214px;
+        left: 547px;
+    }
+
+    .bl4 {
+        top: 192px;
+        left: -125px;
+    }
+
+    .bl5 {
+        top: -95px;
+        left: 137px;
+    }
+
+    .bl6 {
+        top: 6px;
+        left: -242px;
+    }
+
+    .bl7 {
+        top: -74px;
+    left: 445px;
+    }
+
+    .s2-card-ctn {
+        flex-wrap: wrap;
+    }
+
+    .s3-ctn {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .s3-left,
+    .s3-right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .s3r-img {
+        margin-top: 38px;
+        width: 708px;
+    }
+
+    .s4-text {
+        margin-top: 26px;
+    }
+
+    .s5-ctn {
+        height: 19rem;
+    }
+
+    .dots {
+        top: 10.4rem;
+        left: 8.7rem;
+    }
+
+    .s6-ctn {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin: -324px 40px 20px;
+    }
+
+    .s6-right {
+        margin: 126px 40px 0px;
+    }
+
+    .s6-left img {
+        width: 380px;
+        margin: 0;
+    }
+
+    .s7-ctn {
+        margin-top: 0;
+    }
+
+    .s7-logos img {
+        width: 62px;
+    }
+
+    .s8-ctn {
+        margin-top: 3.8rem;
+    }
+
+    .s8-plan {
+        flex-wrap: wrap;
+        margin: 57px 44px 0;
+        height: 52rem;
+    }
+
+    .s8-plan-left {
+        width: 37.5rem;
+    }
+
+    .s8-plan-left > span {
+        margin: 29px auto 0;
+    }
+
+    .s8-plan-left a {
+        margin: 0 auto;
+    }
+
+    .s8-plan-left > div {
+        margin: 0.5rem auto 2.2rem;
+    }
+
+    .s8-plan-features {
+        justify-content: space-between;
+        margin: 44px 0px 10px 1.04rem;
+    }
+
+    .s8-plan-features > div {
+        width: 20rem;
+        margin: 0px -5px 27px 0px;
+    }
+
+    .s9-ctn {
+        margin-top: 3.85rem;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+    }
+
+    .s9-hire {
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+
+    .s9-hire-1 {
+        margin: 22px 0px 0px 30px;
+    }
+
+    .hire {
+        width: 100%;
+    }
+
+    .s9-hire hr {
+        width: 394px;
+        margin: 30px 0;
+    }
+
+    .quote {
+        margin-bottom: 1.3rem;
+    }
+
+    .head-slack {
+        margin: 60px 60px 0px;
+    }
+
+    .profile-bubbles {
+        margin: 21px 41px 0;
+    }
+
+    .profile-bubbles img {
+        width: 2.5rem;
+        margin: 16px 15px;
+    }
+
+    .s9-form {
+        width: 100%;
+        margin: 28px 30px 0;
+    }
+
+    .s9-form h5 {
+        margin: 0.1rem 0 1rem 0;
+    }
+
+    .s9-name {
+        margin-bottom: 1.3rem;
+    }
+
+    .s9-name > input {
+        width: 18.6rem;
+    }
+
+    .s9-select select {
+        width: 19.5rem;
+    }
+
+    .s9-textarea textarea {
+        width: 39rem;
+    }
+
+    .f-top {
+        margin-bottom: 0;
+    }
+
+    .ft-front {
+        width: 24rem;
+    }
+
+    .ft-nav {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .ft-nav div > nav {
+        width: 12rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .ft-hr {
+        margin: 0;
+    }
+}
