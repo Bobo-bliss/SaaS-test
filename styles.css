@@ -6,10 +6,10 @@ body {
 }
 
 .page-ctn {
-    background-image: url(./assets/mockups/Desktop\ [1024+].jpg);
+    /* background-image: url(./assets/mockups/Desktop\ [1024+].jpg);
     background-position: top;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 
 
 
@@ -18,17 +18,19 @@ body {
 }
 
 .header {
+    display: flex;
     padding: 20px 30px;
     margin-bottom: 0.875;
     justify-content: space-between;
 }
 
-.header,
-.header-logo,
-.header-nav,
-.header-nav nav {
+.header-nav {
     display: flex;
     align-items: center;
+}
+
+.header-logo {
+    align-items: flex-start;
 }
 
 .header-logo img {
@@ -39,32 +41,40 @@ body {
     display: none;
 }
 
-.header-nav button {
+.navbar-toggler {
+    margin: 8px 7px 10px 360px;
     cursor: pointer;
     border: none;
     background-color: transparent;
 }
 
-.header-nav button > span {
+.navbar-toggler > span {
     font-size: 1.3rem;
     font-weight: 600;
     color: #667787;
     margin-right: 0.3rem;
 }
 
-.header-nav nav {
+.header-nav {
     justify-content: space-between;
     width: 28.5rem;
 }
 
-.header-nav nav > a {
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 307px;
+}
+
+.nav-links > a {
     font-size: 1rem;
     letter-spacing: -0.02rem;
     text-decoration: none;
     color: #667787;
+    display: inline;
 }
 
-.header-nav nav > a:hover {
+.nav-links > a:hover {
     color: #2475fe;
 }
 
@@ -83,7 +93,7 @@ body {
 
 .s1-ctn {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-bottom: 220px;
 }
 

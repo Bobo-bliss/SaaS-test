@@ -1,14 +1,39 @@
 @media screen and (max-width: 1023px) {
     .page-ctn {
-        background-image: url(./assets/mockups/Tablet\ [768\ -\ 1023].jpg);
+        /* background-image: url(./assets/mockups/Tablet\ [768\ -\ 1023]-dropdown.jpg);
         background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-    
+        background-size: contain;
+        background-repeat: no-repeat; */
+
     
     
         max-width: 768px;
         margin: 0 auto;
+    }
+
+    .header,
+    .header-nav {
+        flex-wrap: wrap;
+    }
+
+    .header-logo {
+        height: 67px;
+    }
+
+    .header-nav {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-links {
+        width: 76%;
+        justify-content: space-evenly;
+        margin: 70px 24px 75px 15px;
+    }
+
+    .nav-links > a {
+        font-size: 20px;
     }
 
 
@@ -16,7 +41,7 @@
 
 
     [aria-controls="navbarDropdown"] {
-        display: block;
+        display: flex;
     }
 
     [aria-expanded="false"] ~ nav {
@@ -24,7 +49,22 @@
     }
 
     [aria-expanded="true"] ~ nav {
-        display: block;
+        display: flex;
+        width: 100%;
+        border-top: 1px solid gainsboro;
+    }
+
+
+
+    
+
+    .buy-now-ctn {
+        margin: 0px 150px 15px;
+    }
+
+    .buy-now {
+        width: 3.3rem;
+        margin: 0 150px;
     }
 
     .s1-ctn {
