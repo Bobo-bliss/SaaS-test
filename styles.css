@@ -367,7 +367,7 @@ body {
 .s4-options {
     display: flex;
     justify-content: space-evenly;
-    margin: 64px 9px 106px 0;
+    margin: 64px 9px 0 0;
 }
 
 .s4hr {
@@ -407,9 +407,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 27px;
+    margin: 6.4rem 27px 0;
+    background-position: -0.85rem 0rem;
     background-image: url(./assets/banners/banner_two.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 26rem;
 }

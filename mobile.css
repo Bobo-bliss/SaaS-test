@@ -212,11 +212,12 @@
     }
 
     .s6-ctn {
-        margin: -279px -30px 20px 0px;
+        margin: -279px 0 20px 0px;
     }
 
     .s6-left img {
-        width: 278px;
+        width: 17.5rem;
+        margin: 0 0 0 1.7rem;
     }
 
     .s6-right {
@@ -224,12 +225,12 @@
     }
 
     .s6-right img {
-        width: 104px;
-        margin: 30px 32px 0 0;
+        width: 6.4rem;
+        margin: 1.7rem auto 0;
     }
 
     .s6-right > p {
-        margin: 25px 47px 47px 20px;
+        margin: 1.55rem 1rem 3rem;
         line-height: 2.085rem;
     }
 

@@ -157,6 +157,11 @@
 
     .s5-ctn {
         height: 19rem;
+        background-position: -0.48rem 0rem;
+    }
+
+    .s5-ctn a {
+        margin-top: 0.7rem;
     }
 
     .dots {
