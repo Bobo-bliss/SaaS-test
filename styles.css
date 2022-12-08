@@ -243,7 +243,7 @@ body {
 .s2-card-ctn {
     display: flex;
     justify-content: space-evenly;
-    margin: 72px 14px 56px;
+    margin: 72px 14px 59px;
 }
 
 .s2-card-ctn > div {
@@ -306,6 +306,10 @@ body {
     line-height: 31px;
     letter-spacing: 0.016rem;
     margin-bottom: 1.5rem;
+}
+
+.s3-left h3 > br {
+    display: none;
 }
 
 .s3-left a {

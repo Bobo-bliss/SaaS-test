@@ -124,6 +124,7 @@
 
     .s2-card-ctn {
         flex-wrap: wrap;
+        margin-bottom: 3.45rem;
     }
 
     .s3-ctn {
@@ -147,6 +148,11 @@
 
     .s4-text {
         margin-top: 26px;
+    }
+
+    .s4-options {
+        justify-content: space-between;
+        margin: 4rem 0.8rem 5rem 2rem;
     }
 
     .s5-ctn {

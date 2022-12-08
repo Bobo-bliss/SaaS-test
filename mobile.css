@@ -149,10 +149,18 @@
         margin: 0 0 28px 0;
     }
 
+    .s2-card-ctn p {
+        margin-bottom: 1.1rem;
+    }
+
     .s3-left h3 {
         margin: 43px 12px 25px;
         letter-spacing: 0.05rem;
         line-height: 32px;
+    }
+
+    .s3-left h3 > br {
+        display: block;
     }
 
     .s3r-img {
@@ -167,13 +175,13 @@
     }
 
     .s4-text div > p {
-        margin: 0 30px;
-    }
+    margin: 0.45rem 30px 0;
+    line-height: 1.55rem;
+}
 
     .s4-options {
         flex-direction: column;
-        margin-top: 41px;
-        margin-bottom: 10px;
+        margin: 2.6rem 0 0 0;
     }
 
     .s4hr {
