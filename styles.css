@@ -6,6 +6,17 @@ body {
 }
 
 .page-ctn {
+
+
+
+    background-image: url(./assets/abstract/main_background_img.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: -10.5rem 0;
+
+
+
+
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -360,7 +371,7 @@ body {
 .s4-options {
     display: flex;
     justify-content: space-evenly;
-    margin: 64px 9px 0 0;
+    margin: 59px 9px 0 0;
 }
 
 .s4hr {
@@ -382,11 +393,12 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 2rem;
-    background-color: gainsboro;
+    border: 5px solid white;
+    background-color: #ecf2ff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 
 .s4bd {
@@ -663,6 +675,13 @@ body {
     width: 3rem;
     border-radius: 2rem;
     margin: 2rem 1rem 0 0;
+
+    transition: transform .25s ease;
+}
+
+.profile-bubbles img:hover {
+    width: 3rem;
+    transform: scale(1.25);
 }
 
 .s9-form {
