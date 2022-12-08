@@ -1,17 +1,5 @@
 @media screen and (max-width: 1023px) {
     .page-ctn {
-        background-image: url(./assets/mockups/Tablet\ [768\ -\ 1023].jpg);
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-        /* background-image: url(./assets/mockups/Tablet\ [768\ -\ 1023]-dropdown.jpg);
-        background-position: top;
-        background-size: contain;
-        background-repeat: no-repeat; */
-    
-    
-        max-width: 768px;
         margin: 0 auto;
     }
 
@@ -155,6 +143,12 @@
         margin: 4rem 0.8rem 5rem 2rem;
     }
 
+    .s4hr {
+        width: 71%;
+        top: 2392px;
+        left: 120px;
+    }
+
     .s5-ctn {
         height: 19rem;
         background-position: -0.48rem 0rem;
@@ -230,7 +224,7 @@
     }
 
     .s9-ctn {
-        margin-top: 3.85rem;
+        margin-top: 4rem;
         flex-wrap: wrap;
         padding-bottom: 2rem;
     }
@@ -296,6 +290,11 @@
         width: 39rem;
     }
 
+    .policy {
+        text-align: left;
+        margin-left: 2.4rem;
+    }
+
     .f-top {
         margin-bottom: 0;
     }
@@ -315,6 +314,11 @@
     }
 
     .ft-hr {
-        margin: 0;
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .f-bottom {
+        margin-top: 2.25rem;
     }
 }

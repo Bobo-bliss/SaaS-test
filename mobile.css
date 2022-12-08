@@ -1,16 +1,5 @@
 @media screen and (max-width: 767px) {
     .page-ctn {
-        background-image: url(./assets/mockups/Mobile\ [360\ -\ 767].jpg);
-
-        /* background-image: url(./assets/mockups/Mobile\ [360\ -\ 767]-dropdown.jpg); */
-
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-    
-    
-        max-width: 375px;
         margin: 0 auto;
     }
 
@@ -253,6 +242,10 @@
     .s8-ctn {
         margin-top: 2.9rem;
         height: 93rem;
+    }
+
+    .s8-text p {
+        margin: -0.15rem 0 -0.4rem;
     }
 
     .s8-plan {

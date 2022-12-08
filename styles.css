@@ -6,13 +6,6 @@ body {
 }
 
 .page-ctn {
-    background-image: url(./assets/mockups/Desktop\ [1024+].jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-
-
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -518,7 +511,7 @@ body {
 .s8-text p {
     font-size: 1.12rem;
     color: #667787;
-    margin: -0.25rem
+    margin: -0.25rem 0;
 }
 
 .s8-plan {
@@ -620,7 +613,7 @@ body {
 
 .s9-ctn {
     display: flex;
-    margin-top: 7.35rem;
+    margin-top: 7.45rem;
     background-color: #20335b;
 }
 
@@ -870,7 +863,8 @@ body {
     color: #2475fe;
 }
 
-.fbt-right {
+.fbt-right,
+.fbt-right-social {
     display: flex;
 }
 
@@ -929,9 +923,11 @@ body {
     text-align: center;
     color: #667787;
     font-weight: 500;
+    margin-top: 2.4rem;
 }
 
 .fb-bottom div {
     width: 44rem;
     margin: 1rem auto 0;
+    line-height: 1.4rem;
 }
