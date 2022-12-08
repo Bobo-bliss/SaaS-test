@@ -1,0 +1,484 @@
+@media screen and (max-width: 767px) {
+    .page-ctn {
+        background-image: url(./assets/mockups/Mobile\ [360\ -\ 767].jpg);
+
+        /* background-image: url(./assets/mockups/Mobile\ [360\ -\ 767]-dropdown.jpg); */
+
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    
+    
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .header {
+        padding: 21px 32px;
+    }
+
+    .header-logo img {
+        width: 160px;
+    }
+
+    .navbar-toggler {
+        margin-left: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        margin: 5rem auto 1rem;
+    }
+
+    .nav-links li {
+        margin-bottom: 1.94rem;
+    }
+
+    .buy-now-ctn {
+        margin: 0 auto 1rem;
+    }
+
+    .buy-now {
+        margin: 0;
+    }
+
+    .s1-ctn {
+        margin: 1.15rem 0 0;
+    }
+
+    .s1-left {
+        margin: 0;
+    }
+
+    .s1-left-ctn {
+        width: 100%;
+        margin: 0;
+    }
+
+    .s1-left-ctn h1 {
+        font-size: 1.8rem;
+        width: 349px;
+        line-height: 35px;
+        margin: 15px auto 0;
+    }
+
+    .s1-left-ctn p {
+        width: 300px;
+        margin: 7px auto;
+        letter-spacing: 0.025rem;
+        line-height: 18px;
+    }
+
+    .learn-more {
+        margin-top: 30px;
+    }
+
+    .lm-btn {
+        letter-spacing: 0.03rem;
+    }
+
+    .lm-btn svg {
+        margin-left: 6px;
+        margin-right: 8px;
+    }
+
+    .s1-right {
+        margin-bottom: 100px;
+    }
+
+    .bl1 {
+        top: 65px;
+        left: 277px;
+    }
+
+    .bl2 {
+        top: 65px;
+        left: -50px;
+    }
+
+    .bl3 {
+        top: 213px;
+        left: 267px;
+    }
+
+    .bl4 {
+        top: 200px;
+        left: -61px;
+    }
+
+    .bl5 {
+        top: -96px;
+        left: 17px;
+    }
+
+    .bl6 {
+        top: 9px;
+        left: -169px;
+    }
+
+    .bl7 {
+        top: -70px;
+        left: 210px;
+    }
+
+    .s2-text {
+        margin-top: 1.95rem;
+    }
+
+    .s2-text p {
+        width: 350px;
+        margin: 1px auto 0;
+        letter-spacing: 1px;
+    }
+
+    .s2-card-ctn {
+        margin-top: 48px;
+        margin-bottom: 12px;
+    }
+
+    .s2-card-ctn > div {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+    
+    .s2-card-ctn div > div {
+        line-height: 31px;
+        padding: 25px 23px 12px;
+        margin: 0 0 28px 0;
+    }
+
+    .s3-left h3 {
+        margin: 43px 12px 25px;
+        letter-spacing: 0.05rem;
+        line-height: 32px;
+    }
+
+    .s3r-img {
+        background-position-y: 1px;
+        background-position-x: -18px;
+        width: 315px;
+        height: 13.63rem;
+    }
+
+    .s4-text div > h3 {
+        margin: 0;
+    }
+
+    .s4-text div > p {
+        margin: 0 30px;
+    }
+
+    .s4-options {
+        flex-direction: column;
+        margin-top: 41px;
+        margin-bottom: 10px;
+    }
+
+    .s4hr {
+        display: none;
+    }
+
+    .s4-options > div {
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .s4gc {
+        margin: auto 36px;
+    }
+
+    .s5-ctn {
+        margin: 43px 0;
+        height: 160px;
+        background-position: -6px 0px;
+        background-size: cover;
+    }
+
+    .dots {
+        top: 5.2rem;
+        left: 1.8rem;
+        width: 147px;
+    }
+
+    .s6-ctn {
+        margin: -279px -30px 20px 0px;
+    }
+
+    .s6-left img {
+        width: 278px;
+    }
+
+    .s6-right {
+        margin: 47px 0 0 0;
+    }
+
+    .s6-right img {
+        width: 104px;
+        margin: 30px 32px 0 0;
+    }
+
+    .s6-right > p {
+        margin: 25px 47px 47px 20px;
+        line-height: 2.085rem;
+    }
+
+    .name-tag {
+        margin-right: 50px;
+        letter-spacing: 0.02rem;
+    }
+
+    .s7-logos {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+
+    .s7-logos img {
+        width: 101px;
+        margin-top: 0.65rem;
+    }
+
+    .s8-ctn {
+        margin-top: 2.9rem;
+        height: 93rem;
+    }
+
+    .s8-plan {
+        margin: 65px 16px 0;
+    }
+
+    .s8-plan-left {
+        padding: 0 42px;
+    }
+
+    .s8-plan-left p {
+        margin-top: 32px;
+        margin-bottom: 3.35rem;
+    }
+
+    .s8-plan-features {
+        margin: 53px 0 0 0;
+    }
+
+    .s8-plan-features > div {
+        margin-bottom: 36px;
+    }
+
+    .s9-ctn {
+        margin-top: 1.85rem;
+    }
+
+    .s9-hire {
+        flex-wrap: wrap;
+    }
+
+    .hire h5 {
+        margin-top: 2.25rem;
+    }
+
+    .hire p {
+        font-size: 1.14rem;
+    }
+    
+    .s9-hire-1 {
+        margin: 0;
+        padding: 0 17px;
+        text-align: center;
+        width: 341px;
+    }
+
+    .s9-hire hr {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .quote {
+        width: 21.31rem;
+    }
+    
+    .quote p {
+        font-size: 1.1rem;
+    }
+
+    .s9-hire-2 {
+        width: 100%;
+    }
+    
+    .head-slack {
+        text-align: center;
+        margin: 32px 0 0;
+    }
+
+    .head-slack h5 {
+        font-size: 1.25rem;
+    }
+
+    .profile-bubbles {
+        margin: 21px 70px 0;
+    }
+    
+    .s9-form {
+        max-width: 17.55rem;
+        margin: 40px 13px 0 17px;
+        padding: 1.9rem 2.063rem 2rem 1.938rem;
+    }
+    
+    .s9-form h5 {
+        line-height: 1.5rem;
+        margin-bottom: 1.32rem;
+        letter-spacing: 0.015rem;
+    }
+    
+    .s9-name {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    
+    .s9-name > input {
+        width: 100%;
+        margin: 0 0 1.45rem;
+    }
+
+    .s9-select {
+        flex-wrap: wrap;
+    }
+
+    .s9-select select {
+        width: 100%;
+    }
+    
+    #budget {
+        margin-bottom: 1.55rem;
+    }
+
+    .s9-textarea textarea {
+        width: 16.15rem;
+        height: 8.5rem;
+        margin-bottom: 0.28rem;
+    }
+
+    .checkbox {
+        line-height: 1.46rem;
+    }
+
+    .policy {
+        margin: 0.55rem 0 2.3rem 2.6rem;
+    }
+
+    .f-top {
+        flex-wrap: wrap;
+        margin: 4.7rem 0 0.8rem;
+    }
+
+    .ft-front {
+        width: 100%;
+        margin: 0 0 2rem;
+        text-align: center;
+    }
+
+    .ft-front > img {
+        width: 6.5rem;
+        margin: 0.5rem 0 0.8rem;
+    }
+
+    .f-top a {
+        letter-spacing: 0.028rem;
+        font-size: 1.2rem;
+    }
+
+    .ft-front div > a > svg {
+        margin-right: 0.35rem;
+    }
+
+    .ft-phone {
+        margin-top: 0.45rem;
+    }
+
+    .ft-phone a {
+        font-size: 1.4rem;
+    }
+
+    .ft-nav {
+        justify-content: center;
+    }
+
+    .ft-nav div {
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+
+    .mt {
+        margin-top: 1.1rem;
+    }
+
+    .ft-nav div > nav {
+        margin-bottom: 0;
+    }
+
+    .ft-nav div > nav > ul {
+        margin: 0.6rem 0 0;
+        line-height: 2.55rem;
+    }
+
+    .ft-hr {
+        margin: 0 auto;
+    }
+
+    .f-bottom {
+        margin-top: 2.15rem;
+    }
+
+    .fb-top {
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fbt-left {
+        width: 70%;
+    }
+
+    .fbt-left a {
+        font-size: 0.915rem;
+    }
+
+    .fbt-right {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 1.65rem 3rem;
+    }
+
+    .fbt-right-social {
+        display: flex;
+        justify-content: space-between;
+        width: 12rem;
+        margin-left: 1.45rem;
+        margin-bottom: 2rem;
+    }
+
+    .fbt-right-social a {
+        margin: 0;
+    }
+
+    .fbt-right select {
+        height: 1.95rem;
+    }
+
+    .fb-bottom {
+        text-align: center;
+        margin-top: 0.9rem;
+    }
+
+    .fb-bottom span {
+        letter-spacing: 0.025rem;
+    }
+
+    .fb-bottom div {
+        width: 21rem;
+        margin: 1.15rem auto;
+        line-height: 1.44rem;
+    }
+}

@@ -1,10 +1,14 @@
 @media screen and (max-width: 1023px) {
     .page-ctn {
+        background-image: url(./assets/mockups/Tablet\ [768\ -\ 1023].jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
         /* background-image: url(./assets/mockups/Tablet\ [768\ -\ 1023]-dropdown.jpg);
         background-position: top;
         background-size: contain;
         background-repeat: no-repeat; */
-
     
     
         max-width: 768px;
@@ -16,8 +20,8 @@
         flex-wrap: wrap;
     }
 
-    .header-logo {
-        height: 67px;
+    .header-logo img {
+        width: 9.6rem;
     }
 
     .header-nav {
@@ -32,7 +36,7 @@
         margin: 70px 24px 75px 15px;
     }
 
-    .nav-links > a {
+    .nav-links li > a {
         font-size: 20px;
     }
 
@@ -59,7 +63,7 @@
     
 
     .buy-now-ctn {
-        margin: 0px 150px 15px;
+        margin: 0px 100px 15px;
     }
 
     .buy-now {
